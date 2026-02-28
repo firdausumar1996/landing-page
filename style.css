@@ -1,0 +1,36 @@
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+}
+
+.header {
+    background-color: #1F2937;
+    width: 1250px;
+    padding: 20px;
+}
+
+.header a.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.header-right {
+    float: right;
+    padding: 5px;
+}
+
+.header-right a {
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 10px;
+}
+
+
+
