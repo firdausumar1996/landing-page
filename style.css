@@ -12,6 +12,11 @@ body {
     padding: 20px;
 }
 
+.footer {
+    width: 1250px;
+    padding: 20px;
+}
+
 .header a.logo {
     color: #F9FAF8;
     font-size: 24px;
@@ -50,6 +55,9 @@ body {
 
 .section.grey {
     background-color: #E5E7EB;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .left {
@@ -58,6 +66,17 @@ body {
 
 .right {
     flex: 50%;
+}
+
+.white-left {
+    flex: 60%;
+}
+
+.white-right {
+    flex: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .placeholder{
@@ -87,12 +106,29 @@ body {
     border-radius: 12px;
 }
 
+.quote {
+    width: 750px;
+}
+
 p {
     color: #E5E7EB;
     font-size: 18px;
 }
 
-button {
+.person {
+    float: right;
+    margin: 30px;
+}
+
+.blue-container {
+    display: flex;
+    width: 850px;
+    background-color: #3882F6;
+    border: 1px solid #3882F6;
+    border-radius: 12px;
+}
+
+.button {
     background-color: #3882F6;
     border: 1px solid #3882F6;
     border-radius: 12px;
@@ -102,6 +138,10 @@ button {
     font-weight: bold;
     font-size: 18px;
     text-align: center;
-    width: 20%;
+    width: 25%;
 }
 
+.button.white {
+    border: 2px solid #F9FAF8;
+    width: 30%;
+}
